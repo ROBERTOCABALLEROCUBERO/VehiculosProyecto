@@ -8,11 +8,11 @@ package prog.roberto.recu2evaluacion_roberto;
  *
  * @author DAW
  */
-public class motos extends Vehiculos {
+public class Motos extends Vehiculos {
     private String matricula;
     private String color;
 
-    public motos(String matricula, String color, String modelo) {
+    public Motos(String matricula, String color, String modelo) {
         super(modelo);
         this.matricula = matricula;
         this.color = color;

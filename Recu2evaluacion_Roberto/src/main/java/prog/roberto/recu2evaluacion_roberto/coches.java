@@ -8,12 +8,12 @@ package prog.roberto.recu2evaluacion_roberto;
  *
  * @author DAW
  */
-public class coches extends Vehiculos {
+public class Coches extends Vehiculos {
 
     private String aireacondicionado;
     private String matricula;
 
-    public coches(String aireacondicionado, String matricula, String modelo) {
+    public Coches(String aireacondicionado, String matricula, String modelo) {
         super(modelo);
         this.aireacondicionado = aireacondicionado;
         this.matricula = matricula;
