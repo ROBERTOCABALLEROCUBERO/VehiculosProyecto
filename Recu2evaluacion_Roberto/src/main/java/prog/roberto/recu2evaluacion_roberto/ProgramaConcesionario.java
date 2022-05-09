@@ -22,7 +22,7 @@ public class ProgramaConcesionario {
             Coches coche1 = new Coches("Si", "246365-D", "Modelo2009");
             Coches coche2 = new Coches("Si", "63424552-F", "Seat");
             Bicicletas bici = new Bicicletas(16, "Montaña");
-            Bicicletas bici2 = new Bicicletas(25, "Carre");
+            Bicicletas bici2 = new Bicicletas(25, "Carretera");
             Furgonetas furgoneta = new Furgonetas("03573-H", 6, "Iveco");
             Furgonetas furgoneta1 = new Furgonetas("0343-H", 8, "IvecoXXL");
             Motos moto = new Motos("02157K", "Azul", "Yamaha");
@@ -54,7 +54,7 @@ public class ProgramaConcesionario {
             //Muestro toda la informacion otra vez
             System.out.println("---------------------------------------------------------------------------------");
             System.out.println("Imprmir info con vehiculo borrado: ");
-                   concesionario1.imprimirlista();
+            concesionario1.imprimirlista();
 
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Te has salido del limite del array");

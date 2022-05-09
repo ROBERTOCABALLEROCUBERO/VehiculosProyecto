@@ -9,6 +9,7 @@ package prog.roberto.recu2evaluacion_roberto;
  * @author DAW
  */
 public class Motos extends Vehiculos {
+
     private String matricula;
     private String color;
 
@@ -33,8 +34,7 @@ public class Motos extends Vehiculos {
     public void setColor(String color) {
         this.color = color;
     }
-    
-    
+
     @Override
     public void imprimir() {
         System.out.println("\nMotos" + "\tModelo: " + this.getModelo());
@@ -43,7 +43,7 @@ public class Motos extends Vehiculos {
 
     @Override
     public void imprimirtodo() {
-        System.out.println("\nMotos" + " Modelo" + this.getModelo() + "\nMatricula: " + this.getMatricula() + " Color: " + this.getColor() + "\n");
+        System.out.println("\nMotos" + " Modelo: " + this.getModelo() + "\nMatricula: " + this.getMatricula() + " Color: " + this.getColor() + "\n");
 
     }
 }

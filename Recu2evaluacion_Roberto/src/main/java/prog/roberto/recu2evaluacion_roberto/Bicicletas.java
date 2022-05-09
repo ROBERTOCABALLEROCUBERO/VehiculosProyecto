@@ -8,7 +8,8 @@ package prog.roberto.recu2evaluacion_roberto;
  *
  * @author DAW
  */
-public class Bicicletas extends Vehiculos{
+public class Bicicletas extends Vehiculos {
+
     private int peso;
 
     public Bicicletas(int peso, String modelo) {
@@ -24,8 +25,6 @@ public class Bicicletas extends Vehiculos{
         this.peso = peso;
     }
 
-    
-    
     @Override
     public void imprimir() {
         System.out.println("\nBicicleta\t" + "Modelo: " + this.getModelo());
@@ -34,6 +33,6 @@ public class Bicicletas extends Vehiculos{
 
     @Override
     public void imprimirtodo() {
-     System.out.println("\nBicicleta " + " Modelo " + this.getModelo() + " Peso: " + this.getPeso()+ "\n");
+        System.out.println("\nBicicleta " + " Modelo: " + this.getModelo() + " Peso: " + this.getPeso() + "\n");
     }
 }
