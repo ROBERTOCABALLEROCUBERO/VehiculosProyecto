@@ -35,14 +35,31 @@ public class ProgramaConcesionario {
             concesionario1.insertavehiculos(coche1);
             concesionario1.insertavehiculos(furgoneta);
             concesionario1.insertavehiculos(moto);
+            //Uso el metodo lista de vehiculos basica
+            System.out.println("------------------------------------------------------------------------------");
+            System.out.println("\nDatos pero solo tipo y modelo");
+            concesionario1.imprimirlista();
+            System.out.println("---------------------------------------------------------------------------------");
+            System.out.println("\nTodos los datos de todos los vehiculos");
             //Informacion de todos los vehiculos
             concesionario1.imprimirlistacompleta();
+            System.out.println("\n Datos de vehiculo concreto");
+            System.out.println("---------------------------------------------------------------------------");
             //Informacion de un vehiculo en concreto
             concesionario1.todoslosdatosvehiculo(2);
             // Excepcion: concesionario1.borravehiculos(-24);
-concesionario1.borravehiculos(2);
+            //concesionario1.borravehiculos(97);
+            //Borrar los vehiculos
+            concesionario1.borravehiculos(2);
+            //Muestro toda la informacion otra vez
+            System.out.println("---------------------------------------------------------------------------------");
+            System.out.println("Imprmir info con vehiculo borrado: ");
+                   concesionario1.imprimirlista();
 
-        } catch  {
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Te has salido del limite del array");
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
 
         }
 

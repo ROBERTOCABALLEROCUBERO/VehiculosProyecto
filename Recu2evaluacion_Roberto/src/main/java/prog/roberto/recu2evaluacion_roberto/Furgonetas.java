@@ -37,12 +37,12 @@ public class Furgonetas extends Vehiculos {
 
     @Override
     public void imprimir() {
-        System.out.println(" Furgoneta " + " Modelo: " + this.getModelo());
+        System.out.println("\nFurgoneta " + "\tModelo: " + this.getModelo());
     }
 
     @Override
     public void imprimirtodo() {
-        System.out.println(" Furgoneta " + " Modelo: " + this.getModelo() + " Numero de asientos: " + this.getNumasientos() + "\nMatricula: " + this.getMatricula());
+        System.out.println("\nFurgoneta " + " Modelo: " + this.getModelo() + " Numero de asientos: " + this.getNumasientos() + "\nMatricula: " + this.getMatricula() + "\n");
 
     }
 }

@@ -28,12 +28,12 @@ public class Bicicletas extends Vehiculos{
     
     @Override
     public void imprimir() {
-        System.out.println("Bicicleta" + "Modelo" + this.getModelo());
+        System.out.println("\nBicicleta\t" + "Modelo: " + this.getModelo());
 
     }
 
     @Override
     public void imprimirtodo() {
-     System.out.println(" Bicicleta " + " Modelo " + this.getModelo() + " Peso: " + this.getPeso());
+     System.out.println("\nBicicleta " + " Modelo " + this.getModelo() + " Peso: " + this.getPeso()+ "\n");
     }
 }

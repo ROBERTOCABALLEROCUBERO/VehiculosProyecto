@@ -37,13 +37,13 @@ public class Coches extends Vehiculos {
 
     @Override
     public void imprimir() {
-        System.out.println("Coche" + "Modelo: " + this.getModelo());
+        System.out.println("\nCoche\t " + "Modelo: " + this.getModelo());
 
     }
 
     @Override
     public void imprimirtodo() {
-        System.out.println(" Coche " + " Modelo: " + this.getModelo() + "\nMatricula: " + this.getMatricula() + " Aire acondicionado: " + this.getAireacondicionado());
+        System.out.println("\nCoche " + " Modelo: " + this.getModelo() + "\nMatricula: " + this.getMatricula() + " Aire acondicionado: " + this.getAireacondicionado() + "\n");
 
     }
 

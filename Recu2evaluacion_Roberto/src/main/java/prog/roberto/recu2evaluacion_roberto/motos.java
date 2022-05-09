@@ -37,13 +37,13 @@ public class Motos extends Vehiculos {
     
     @Override
     public void imprimir() {
-        System.out.println("Motos" + "Modelo" + this.getModelo());
+        System.out.println("\nMotos" + "\tModelo" + this.getModelo());
 
     }
 
     @Override
     public void imprimirtodo() {
-        System.out.println("Motos" + "Modelo" + this.getModelo() + "\nMatricula: " + this.getMatricula() + " Color: " + this.getColor());
+        System.out.println("\nMotos" + " Modelo" + this.getModelo() + "\nMatricula: " + this.getMatricula() + " Color: " + this.getColor() + "\n");
 
     }
 }
