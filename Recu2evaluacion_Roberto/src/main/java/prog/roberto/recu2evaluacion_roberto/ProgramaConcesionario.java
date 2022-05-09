@@ -47,17 +47,15 @@ public class ProgramaConcesionario {
             System.out.println("---------------------------------------------------------------------------");
             //Informacion de un vehiculo en concreto
             concesionario1.todoslosdatosvehiculo(2);
-            // Excepcion: concesionario1.borravehiculos(-24);
+            //concesionario1.borravehiculos(-24);
             //concesionario1.borravehiculos(97);
             //Borrar los vehiculos
-            concesionario1.borravehiculos(2);
+            //concesionario1.borravehiculos(2);
             //Muestro toda la informacion otra vez
             System.out.println("---------------------------------------------------------------------------------");
             System.out.println("Imprmir info con vehiculo borrado: ");
             concesionario1.imprimirlista();
 
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Te has salido del limite del array");
         } catch (Exception e) {
             System.out.println(e.getMessage());
 
