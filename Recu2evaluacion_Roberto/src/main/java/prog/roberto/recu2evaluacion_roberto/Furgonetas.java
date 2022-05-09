@@ -35,10 +35,14 @@ public class Furgonetas extends Vehiculos {
         this.numasientos = numasientos;
     }
 
-    
-    
     @Override
     public void imprimir() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println(" Furgoneta " + " Modelo: " + this.getModelo());
+    }
+
+    @Override
+    public void imprimirtodo() {
+        System.out.println(" Furgoneta " + " Modelo: " + this.getModelo() + " Numero de asientos: " + this.getNumasientos() + "\nMatricula: " + this.getMatricula());
+
     }
 }

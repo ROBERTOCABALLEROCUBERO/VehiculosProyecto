@@ -9,10 +9,9 @@ package prog.roberto.recu2evaluacion_roberto;
  * @author DAW
  */
 public class coches extends Vehiculos {
+
     private String aireacondicionado;
     private String matricula;
-
-  
 
     public coches(String aireacondicionado, String matricula, String modelo) {
         super(modelo);
@@ -35,12 +34,17 @@ public class coches extends Vehiculos {
     public void setMatricula(String matricula) {
         this.matricula = matricula;
     }
-    
-    
-    
-    
-      @Override
+
+    @Override
     public void imprimir() {
+        System.out.println("Coche" + "Modelo: " + this.getModelo());
+
     }
-    
+
+    @Override
+    public void imprimirtodo() {
+        System.out.println(" Coche " + " Modelo: " + this.getModelo() + "\nMatricula: " + this.getMatricula() + " Aire acondicionado: " + this.getAireacondicionado());
+
+    }
+
 }

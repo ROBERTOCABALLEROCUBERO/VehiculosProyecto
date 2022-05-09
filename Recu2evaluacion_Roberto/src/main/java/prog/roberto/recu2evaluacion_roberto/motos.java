@@ -37,6 +37,13 @@ public class motos extends Vehiculos {
     
     @Override
     public void imprimir() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Motos" + "Modelo" + this.getModelo());
+
+    }
+
+    @Override
+    public void imprimirtodo() {
+        System.out.println("Motos" + "Modelo" + this.getModelo() + "\nMatricula: " + this.getMatricula() + " Color: " + this.getColor());
+
     }
 }

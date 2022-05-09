@@ -11,13 +11,17 @@ import java.util.*;
 public class Concesionario {
     private ArrayList<Vehiculos> vehiculos1 = new ArrayList<Vehiculos>();
     public void imprimirlista(){
+    for (Vehiculos vehiculo : vehiculos1){
     
+    vehiculo.imprimir();
     
     
     }
-    public void vehiculoconcreto(){
+    }
+    public void vehiculoconcreto(int posicion){
     
-    
+        System.out.println(vehiculos1.get(posicion));
+        
     
     }
     public void imprimirlistacompleta(){

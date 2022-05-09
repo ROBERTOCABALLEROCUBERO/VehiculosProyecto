@@ -14,8 +14,14 @@ public abstract class Vehiculos {
     public Vehiculos(String modelo) {
         this.modelo = modelo;
     }
+
+    public String getModelo() {
+        return modelo;
+    }
+    
     
     public abstract void imprimir();
+    public abstract void imprimirtodo();
     
     
 }
