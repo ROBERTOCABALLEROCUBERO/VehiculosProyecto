@@ -20,8 +20,8 @@ public abstract class Vehiculos {
     }
     
     
-    public abstract void imprimir();
-    public abstract void imprimirtodo();
+    public abstract void imprimir(); //Metodo que luego desarrollare para imprimir solo el tipo y el modelo del objeto
+    public abstract void imprimirtodo(); //Igual que arriba pero con toda la infomacion
     
     
 }

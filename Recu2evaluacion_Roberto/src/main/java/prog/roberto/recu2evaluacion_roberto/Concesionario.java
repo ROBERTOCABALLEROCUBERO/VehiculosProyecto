@@ -18,7 +18,7 @@ public class Concesionario {
         for (Vehiculos vehiculo : getVehiculos1()) {
 
             vehiculo.imprimir();
-
+//Imprime vehiculos solo tipo y modelo.
         }
     }
 
@@ -29,7 +29,7 @@ public class Concesionario {
     }
 
     public void todoslosdatosvehiculo(int posicion) {
-
+//Imprime todos los datos de un vehiculo concreto
         this.getVehiculos1().get(posicion).imprimirtodo();
 
     }
@@ -40,13 +40,13 @@ public class Concesionario {
             vehiculo.imprimirtodo();
 
         }
-
+//Imprime toda la informacion de todos los vehiculos del Array
     }
 
     public void insertavehiculos(Vehiculos vehiculo) {
 
         this.vehiculos1.add(vehiculo);
-
+//Añade vehiculo al array
     }
 
     public void borravehiculos(int posicion) throws Exception {
@@ -56,6 +56,7 @@ public class Concesionario {
         } else {
             this.vehiculos1.remove(posicion);
         }
+        //Metodo que borra un elemento del array y devuelve un error en otro caso.
     }
 
     public void borrartodo() {
